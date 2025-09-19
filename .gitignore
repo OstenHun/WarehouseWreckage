@@ -1,0 +1,28 @@
+# Visual Studio files
+*.sln
+*.suo
+*.user
+*.userprefs
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Rider files
+.idea/
+
+# Build files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Other
+.vs/
+.vscode/
+*.VC.db
+*.opensdf
+*.opendb
+*.pdb
+*.ilk
+*.exp
