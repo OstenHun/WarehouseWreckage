@@ -10,7 +10,7 @@ This game is based on [the lecture](https://www.udemy.com/course/unrealcourse-ko
 - 목표: UE5 블루프린트로 물리 상호작용, 스폰, 입력, 함수화까지 경험하며 작은 슈터 플레이 루프 구성
 - 결과: 탄약 소모 규칙과 분기, 발사체 스폰, 5초 후 레벨 재시작 루프 구현 완료
 
-### 핵심 개념 한눈에 보기
+### Concept
 
 - 에디터 실무: Content Drawer 단축키, StarterContent 추가, Level Blueprint 열기
 - 블루프린트 기초: Event Graph, 노드와 핀의 의미, 실행 핀과 데이터 핀 구분
@@ -27,15 +27,14 @@ This game is based on [the lecture](https://www.udemy.com/course/unrealcourse-ko
 - 레벨 제어: Delay와 Open Level로 리트라이 루프 구성
 <br><br>
 
-### 실습으로 만든 것
+### Practice
 
 - 발사체 BP 생성, 발사 시 오브젝트 이름 출력 로그
 - 탄약 변수 관리, 0 이하 방지 Branch와 "Out of Ammo" 메시지
 - 탄약 소진 시 5초 Delay 후 레벨 재시작
 <br><br>
 
-### 팁과 베스트 프랙티스
-
+### Tip and Best practice
 - BP_ 접두어로 블루프린트 클래스 네이밍하고, 클래스 편집으로 인스턴스 일괄 반영
 - 사이드 이펙트 없는 계산은 순수 함수로 만들어 그래프를 간결하게 유지
 - 충돌 문제는 Collision 뷰와 Static Mesh Editor에서 원인 파악 후 간소화 콜리전 적용
