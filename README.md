@@ -23,7 +23,9 @@ UE5 블루프린트를 활용한 미니 게임
 - 스폰: Spawning, Transform, Return pin 이해
 - 상태와 로직: 변수 선언과 Getter/Setter, Bool과 Branch로 탄약 소진 처리
 - 함수화: Collapse to Function, 입출력 지정, 순수 함수 vs 일반 함수, 멤버 함수와 Self
-- 레벨 제어: Delay와 Open Level로 리트라이 루프 구성
+- 레벨 제어: Delay와 Open Level로 Retry Loop 구성
+<br>
+- -> 전부 블루프린트를 이용해 구현
 <br><br>
 
 ### Practice
@@ -36,7 +38,7 @@ UE5 블루프린트를 활용한 미니 게임
 ### Tip and Best practice
 - BP_ 접두어로 블루프린트 클래스 네이밍하고, 클래스 편집으로 인스턴스 일괄 반영
 - 사이드 이펙트 없는 계산은 순수 함수로 만들어 그래프를 간결하게 유지
-- 충돌 문제는 Collision 뷰와 Static Mesh Editor에서 원인 파악 후 간소화 콜리전 적용
+- 충돌 문제는 Collision 뷰와 Static Mesh Editor에서 원인 파악 후 간소화 Collision 적용
 
 
 -----
