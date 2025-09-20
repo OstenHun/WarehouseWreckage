@@ -42,4 +42,4 @@ UE5 블루프린트를 활용한 미니 게임
 
 
 -----
-Based on [the lecture](https://www.udemy.com/course/unrealcourse-korean/?couponCode=KEEPLEARNING) on the Udemy
+Based on [the lecture](https://www.udemy.com/course/unrealcourse-korean/?couponCode=KEEPLEARNING) on Udemy
