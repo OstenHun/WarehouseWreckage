@@ -2,7 +2,6 @@
 UE5 블루프린트를 활용한 미니 게임
 
 
-This game is based on [the lecture](https://www.udemy.com/course/unrealcourse-korean/?couponCode=KEEPLEARNING) on the Udemy
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/673ae123-ef13-491e-adc6-61804e065cd1" />
 <br><br>
@@ -38,3 +37,7 @@ This game is based on [the lecture](https://www.udemy.com/course/unrealcourse-ko
 - BP_ 접두어로 블루프린트 클래스 네이밍하고, 클래스 편집으로 인스턴스 일괄 반영
 - 사이드 이펙트 없는 계산은 순수 함수로 만들어 그래프를 간결하게 유지
 - 충돌 문제는 Collision 뷰와 Static Mesh Editor에서 원인 파악 후 간소화 콜리전 적용
+
+
+-----
+This game is based on [the lecture](https://www.udemy.com/course/unrealcourse-korean/?couponCode=KEEPLEARNING) on the Udemy
